@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        NDC Worship - Senada Dengan Surga
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<style>
+</style>
+<script>
+</script>
+
+<body onload="writeNumber()">
+    <header>
+        <img class="album"
+            src="https://i.scdn.co/image/ab67616d0000b2732e59f779cc9934d8fe22150f">
+
+        <section class="details">
+            <h1>Senada Dengan Surga</h1>
+            <h2>NDC Worship</h2>
+            Original Key : G<br>
+        </section>
+    </header>
+    <hr>
+
+    <section class="key">
+        <button onclick="writeNumber()">#</button>
+        <button onclick="writeKey(10)">A</button>
+        <button onclick="writeKey(11)">A#</button>
+        <button onclick="writeKey(12)">B</button>
+        <button onclick="writeKey(1)">C</button>
+        <button onclick="writeKey(2)">C#</button>
+        <button onclick="writeKey(3)">D</button>
+        <button onclick="writeKey(4)">D#</button>
+        <button onclick="writeKey(5)">E</button>
+        <button onclick="writeKey(6)">F</button>
+        <button onclick="writeKey(7)">F#</button>
+        <button onclick="writeKey(8)">G</button>
+        <button onclick="writeKey(9)">G#</button>
+    </section>
+    <section class="notes">
+        <!-- Chords
+        <span class="k1">1</span>
+        <span class="k1s">1#</span>
+        <span class="k2">2</span>m
+        <span class="k2s">2#</span>
+        <span class="k3">3</span>m
+        <span class="k4">4</span>
+        <span class="k4s">4#</span>
+        <span class="k5">5</span>
+        <span class="k5s">5#</span>
+        <span class="k6">6</span>m
+        <span class="k6s">6#</span>
+        <span class="k7">7</span>
+    -->
+
+        <h3 id="intro">Intro : </h3>
+
+
+        <div class="part">
+            <p>Piano Section : </p>
+            <p class="melodies">
+                <span class="k6">6</span><span class="k6">6</span><span class="k3">3</span><span class="k4">4</span><span class="k3">3</span>
+            </p>
+            <p class="chords">
+                <span class="k6">6</span>m-----<span class="k4">4</span>
+            </p>
+            <p class="melodies">
+                <span class="k5">5</span><span class="k1">1</span><span class="k2">2</span><span class="k1">1</span>
+            </p>
+            <p class="chords">
+                ------<span class="k1">1</span>
+            </p>
+            <p class="melodies">
+                <span class="k5">5</span><span class="k1">1</span><span class="k2">2</span><span class="k7">7</span>
+            </p>
+            <p class="chords">
+                ------<span class="k3">3</span>m
+            </p>
+            <p class="melodies">
+                <span class="k7">7</span><span class="k1">1</span><span class="k7">7</span><span class="k5">5</span>(<span class="k6">6</span>)
+            </p>
+            <p class="chords">
+                --------(<span class="k6">6</span>m) → back to the beginning
+            </p>
+        </div>
+
+        <h3 id="verse">Verse : </h3>
+        <div class="part">
+            <p class="chords"><span class="k4">4</span>------------------</p>
+            <p class="lyrics">--Tuhan Engkau Hadir</p>
+            <p class="chords"><span class="k6">6</span>m----------------</p>
+            <p class="lyrics">--Kuasanya Mengalir</p>
+            <p class="chords"><span class="k5">5</span>m---------------<span class="k2">2</span>m-----</p>
+            <p class="lyrics">--Melawat Setiap Hati Kami</p>
+
+            <p class="chords"><span class="k4">4</span>------------------</p>
+            <p class="lyrics">--RohMu Membebaskan</p>
+            <p class="chords"><span class="k6">6</span>m------------------</p>
+            <p class="lyrics">--RohMu Membangkitkan</p>
+            <p class="chords"><span class="k5">5</span>m---------------<span class="k2">2</span>m-----</p>
+            <p class="lyrics">--KebesaranMu Dinyatakan</p>
+        </div>
+
+        <h3 id="pre-chorus">Pre-Chorus : </h3>
+        <div class="part">
+            <p class="chords"><span class="k4">4</span>----------<span class="k6">6</span>m-------------</p>
+            <p class="lyrics">Diselamatkan Untuk Menyembah</p>
+
+            <p class="chords"><span class="k2">2</span>m-----------<span class="k1">1</span>/<span class="k3">3</span>-----<span class="k4">4</span>---</p>
+            <p class="lyrics">Datanglah K'rajaanMu Di Dunia</p>
+        </div>
+
+        <h3 id="chorus">Chorus : </h3>
+        <div class="part">
+            <p class="chords"><span class="k1">1</span>--------<span class="k5">5</span>/<span class="k7">7</span>--</p>
+            <p class="lyrics">Dihadapan TahtaMu</p>
+
+            <p class="chords"><span class="k6">6</span>m---------<span class="k4">4</span>--------</p>
+            <p class="lyrics">S'luruh Jiwa - Menyatu</p>
+            
+            <p class="chords"><span class="k1">1</span>---------<span class="k2">2</span>m--</p>
+            <p class="lyrics">Nyanyikan Pujian</p>
+
+            <p class="chords">--<span class="k4">4</span>---------------</p>
+            <p class="lyrics">Senada Dengan Surga</p>
+
+            <p class="chords"><span class="k1">1</span>----------<span class="k5">5</span>/<span class="k7">7</span>--</p>
+            <p class="lyrics">Kami Datang Bersatu</p>
+
+            <p class="chords"><span class="k6">6</span>m---------<span class="k4">4</span>--------</p>
+            <p class="lyrics">Sembah Puji NamaMu</p>
+            
+            <p class="chords"><span class="k1">1</span>--------<span class="k2">2</span>m--</p>
+            <p class="lyrics">Semesta Bersuka</p>
+
+            <p class="chords">---<span class="k4">4</span>---<span class="k1">1</span>/<span class="k3">3</span>--<span class="k4">4</span></p>
+            <p class="lyrics">Bersama Dengan Surga</p>
+        </div>
+
+        <h3 id="interlude">Interlude : </h3>
+        <div class="part">
+            <!-- 1 2 7 1 5 4 3 1-->
+            <!-- 1 2 1 7 5 2 1 7 1 -->
+            <p class="melodies"><span class="k1">1</span><span class="k2">2</span><span class="k7">7</span><span class="k1">1</span></p>
+            <p class="melodies"><span class="k4">4</span><span class="k3">3</span><span class="k1">1</span></p>
+            <p class="melodies"><span class="k1">1</span><span class="k2">2</span><span class="k1">1</span><span class="k7">7</span></p>
+            <p class="melodies"><span class="k2">2</span><span class="k1">1</span><span class="k7">7</span><span class="k1">1</span></p>
+            <p>Back to Intro</p>
+            <p>back to Intro (with Syncopation)</p>
+        </div>
+
+        <h3 id="outro">Outro : </h3>
+        <div class="part">
+            <p class="chords"><span class="k1">1</span>---<span class="k2">2</span>---<span class="k4">4</span></p> 
+            <p class="chords"><span class="k1">1</span>---<span class="k2">2</span>---<span class="k4">4</span></p> 
+            <p class="chords"><span class="k1">1</span>---<span class="k2">2</span>---<span class="k4">4</span></p> 
+            <p class="chords"><span class="k1">1</span>---<span class="k2">2</span>---<span class="k4">4</span>---<span class="k1">1</span>---<span class="k4">4</span></p>    
+        <div class="part">
+    </section>
+
+    <!--Tune-->
+    <div class="tune">
+        <button class="minus" onclick="upKey(-2)">-1</button>
+        <button class="minus" onclick="upKey(-1)">-1/2</button>
+        <button class="plus" onclick="upKey(1)">+1/2</button>
+        <button class="plus" onclick="upKey(2)">+1</button>
+    </div>
+</body>
+
+</html>

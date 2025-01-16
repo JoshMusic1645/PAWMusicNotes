@@ -1,0 +1,103 @@
+body {
+    margin: 5%;
+    font-family: calibri;
+}
+header {
+    display : flex;
+    background-color: rgb(213, 213, 213);
+    height : 40%;
+}
+header img {
+    margin :2%;
+}
+
+.details {
+    font-family: calibri;
+    margin : 2%;
+}
+
+h1 {
+    font-family: 'Calibri';
+    font-size: 4em;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+h2 {
+    font-family: 'Calibri';
+    font-size: 2em;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+h3 {
+    font-family: 'Calibri';
+    font-size: 2em;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+button {
+    height: 1.5em;
+    min-width: 1em;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 2em;
+    color: blue;
+}
+
+p {
+    margin : 0px;
+    font-size:2em;
+    font-family: monospace;
+}
+
+.part {
+    margin-top:1%;
+    margin-bottom:1%;
+    padding : 1%;
+    background-color: lightgrey;
+}
+.chords {
+    font-family: monospace;
+    color: blue;
+    font-weight: bold;
+}
+
+.melodies {
+    font-family: monospace;
+    color: red;
+    font-weight: bold;
+}
+
+
+.lyrics {
+    font-family: monospace;
+    color: black;
+    font-weight: bold;
+}
+
+.plus {
+    color: green;
+}
+
+.minus {
+    color: red;
+}
+aside{
+    padding-left: 0;
+}
+
+.tune {
+    position: fixed;
+    bottom: 0;
+    width : 50%;
+    margin-left : 25%;
+    margin-right :25%;
+}

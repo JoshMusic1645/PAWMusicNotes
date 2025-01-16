@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        JPCC Worship - Bersorak
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<style>
+</style>
+<script>
+</script>
+
+<body onload="writeNumber()">
+    <header>
+        <img class="album"
+            src="data:image/png;base64,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">
+
+        <section class="details">
+            <h1>Bersorak</h1>
+            <h2>JPCC Worship</h2>
+            Original Key : E<br>
+        </section>
+    </header>
+    <hr>
+
+    <section class="key">
+        <button onclick="writeNumber()">#</button>
+        <button onclick="writeKey(10)">A</button>
+        <button onclick="writeKey(11)">A#</button>
+        <button onclick="writeKey(12)">B</button>
+        <button onclick="writeKey(1)">C</button>
+        <button onclick="writeKey(2)">C#</button>
+        <button onclick="writeKey(3)">D</button>
+        <button onclick="writeKey(4)">D#</button>
+        <button onclick="writeKey(5)">E</button>
+        <button onclick="writeKey(6)">F</button>
+        <button onclick="writeKey(7)">F#</button>
+        <button onclick="writeKey(8)">G</button>
+        <button onclick="writeKey(9)">G#</button>
+    </section>
+    <section class="notes">
+        <!-- Chords
+        <span class="k1">1</span>
+        <span class="k1s">1#</span>
+        <span class="k2">2</span>m
+        <span class="k2s">2#</span>
+        <span class="k3">3</span>m
+        <span class="k4">4</span>
+        <span class="k4s">4#</span>
+        <span class="k5">5</span>
+        <span class="k5s">5#</span>
+        <span class="k6">6</span>m
+        <span class="k6s">6#</span>
+        <span class="k7">7</span>
+    -->
+
+        <h3 id="intro">Intro : </h3>
+
+
+        <div class="part">
+            <p>Piano Section : </p>
+            <!--Line 1-->
+            <p class="melodies">
+                <span class="k6">6</span>--<span class="k5">5</span>--<span class="k3">3</span>--<span
+                    class="k2">2</span>--<span class="k1">1</span>--<span class="k1">1</span><span
+                    class="k2">2</span><span class="k3">3</span>
+            </p>
+            <p class="chords">
+                <span class="k4">4</span>----------<span class="k1">1</span>------------
+            </p>
+            <!--Line 2-->
+            <p class="melodies">
+                <span class="k6">6</span>--<span class="k5">5</span>--<span class="k3">3</span>--<span
+                    class="k2">2</span>--<span class="k1">1</span>--<span class="k1">1</span><span
+                    class="k2">2</span><span class="k3">3</span>
+            </p>
+            <p class="chords">
+                <span class="k6">6</span>m---------<span class="k5">5</span>------------
+            </p>
+        </div>
+
+        <div class="part">
+            <p>Guitar Section : (Piano still playing piano part)</p>
+            <!--Line 1-->
+            <p class="melodies">
+                <span class="k6">6</span><span class="k5">5</span>-<span class="k5">5</span><span
+                    class="k3">3</span>-<span class="k3">3</span><span class="k2">2</span>-<span
+                    class="k2">2</span><span class="k1">1</span>-<span class="k1">1</span>--<span
+                    class="k1">1</span><span class="k2">2</span><span class="k3">3</span>
+            </p>
+            <p class="chords">
+                <span class="k4">4</span>-------------<span class="k1">1</span>-------------
+            </p>
+            <p class="melodies">
+                <span class="k6">6</span><span class="k5">5</span>-<span class="k5">5</span><span
+                    class="k3">3</span>-<span class="k3">3</span><span class="k2">2</span>-<span
+                    class="k2">2</span><span class="k1">1</span>-<span class="k1">1</span>--<span
+                    class="k1">1</span><span class="k2">2</span><span class="k3">3</span>
+            </p>
+            <p class="chords">
+                <span class="k6">6</span>m------------<span class="k5">5</span>-------------
+            </p>
+            <!--Line 2-->
+            <p>last part : </p>
+            <p class="melodies">
+                <span class="k6">6</span><span class="k5">5</span>-<span class="k5">5</span><span
+                    class="k3">3</span>-<span class="k3">3</span><span class="k2">2</span>-<span
+                    class="k2">2</span><span class="k1">1</span>-<span class="k1">1</span>--<span
+                    class="k1">1</span><span class="k2">2</span><span class="k1">1</span>
+            </p>
+            <p class="chords">
+                <span class="k6">6</span>m------------<span class="k5">5</span>-------------
+            </p>
+        </div>
+
+        <h3 id="verse">Verse : </h3>
+        <div class="part">
+            <p class="chords"><span class="k4">4</span>----------------------<span class="k1">1</span></p>
+            <p class="lyrics">Kau Batu Karang Yang Teguh</p>
+
+            <p class="chords"><span class="k6">6</span>m---------------------<span class="k5">5</span></p>
+            <p class="lyrics">Kota Benteng Dan Perisaiku</p>
+
+            <p class="chords"><span class="k4">4</span>---------------------<span class="k1">1</span></p>
+            <p class="lyrics">Yang Menang Kalahkan Maut</p>
+
+            <p class="chords"><span class="k6">6</span>m----------------------------<span class="k5">5</span></p>
+            <p class="lyrics">Penyelamat Yang Bangkit Dan Hidup</p>
+        </div>
+
+        <h3 id="pre-chorus">Pre-Chorus : </h3>
+        <div class="part">
+            <p class="melodies"><span class="k6">6</span><span class="k7">7</span><span class="k1">1</span><span class="k2">2</span>--<span class="k7">7</span><span class="k1">1</span><span class="k2">2</span><span class="k3">3</span>----<span class="k6">6</span><span class="k7">7</span>-<span class="k1">1</span><span class="k2">2</span><span class="k2">2</span></p>
+            <p class="chords"><span class="k4">4</span>---<span class="k6">6</span>m--<span class="k5">5</span>---<span class="k1">1</span>/<span class="k3">3</span>--<span class="k4">4</span>-------<span class="k5">5</span></p>
+            <p class="lyrics">Haleluya,  Haleluya -- Kekal Mulia</p>
+
+            <p class="melodies"><span class="k6">6</span><span class="k7">7</span><span class="k1">1</span><span class="k2">2</span>--<span class="k7">7</span><span class="k1">1</span><span class="k2">2</span><span class="k3">3</span>----<span class="k6">6</span>-<span class="k7">7</span>---<span class="k1">1</span>-<span class="k5">5</span>-<span class="k5">5</span></p>
+            <p class="chords"><span class="k4">4</span>---<span class="k6">6</span>m--<span class="k5">5</span>---<span class="k1">1</span>/<span class="k3">3</span>--<span class="k4">4</span>------------<span class="k5">5</span></p>
+            <p class="lyrics">Haleluya,  Haleluya -- Dahsyat Berkuasa</p>
+        </div>
+
+        <h3 id="chorus">Chorus : </h3>
+        <div class="part">
+            <p class="chords"><span class="k1">1</span>-------<span class="k5">5</span>------</p>
+            <p class="lyrics">Bersorak Nyatakan</p>
+
+            <p class="chords"><span class="k2">2</span>m---------------</p>
+            <p class="lyrics">Yesus Kaulah Tuhan</p>
+            
+            <p class="chords"><span class="k4">4</span>---------------</p>
+            <p class="lyrics">Kau Raja Pemenang</p>
+            <p class="chords"><span class="k1">1</span>-------<span class="k5">5</span>------</p>
+            <p class="lyrics">Bersorak Nyatakan</p>
+
+            <p class="chords"><span class="k2">2</span>m---------------</p>
+            <p class="lyrics">Yesus Kaulah Tuhan</p>
+            
+            <p class="chords"><span class="k4">4</span>---------------</p>
+            <p class="lyrics">Jurusl'amat Dunia</p>
+        </div>
+
+        <h3 id="interlude">Interlude : </h3>
+        <div class="part">
+            <p>Chord Section : </p>
+            <p class="chords"><span class="k2">2</span>m<span class="k4">4</span><span class="k6">6</span>m<span class="k5">5</span></p>
+        </div>
+        <div class="part">
+            <p>Guitar Section : </p>
+            <!-- 6 1 5 3    6 1 3 2-->
+            <p class="melodies"><span class="k6">6</span><span class="k1">1</span><span class="k5">5</span><span class="k3">3</span></p>
+            <p class="melodies"><span class="k6">6</span><span class="k1">1</span><span class="k3">3</span><span class="k2">2</span></p>
+        </div>
+        
+        <h3 id="bridge">Bridge : </h3>
+        <div class="part">
+            <p class="chords"><span class="k2">2</span>m---------------<span class="k4">4</span>---------------</p>
+            <p class="lyrics">Agung Dan Perkasa Megah Dan Berjaya</p>
+            <p class="chords"><span class="k1">1</span>----------<span class="k5">5</span>----------</p>
+            <p class="lyrics">Yesus Tuhan, Yesus Tuhan</p>
+        
+            <p class="chords"><span class="k2">2</span>m-----------------<span class="k4">4</span>---------------</p>
+            <p class="lyrics">Tempat Perlindungan Kubu Pertahanan</p>
+            <p class="chords"><span class="k1">1</span>----------<span class="k5">5</span>----------</p>
+            <p class="lyrics">Yesus Tuhan, Yesus Tuhan</p>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!--Tune-->
+    <div class="tune">
+        <button class="minus" onclick="upKey(-2)">-1</button>
+        <button class="minus" onclick="upKey(-1)">-1/2</button>
+        <button class="plus" onclick="upKey(1)">+1/2</button>
+        <button class="plus" onclick="upKey(2)">+1</button>
+    </div>
+</body>
+
+</html>
